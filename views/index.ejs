@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Index</title>
+  <style>
+    form label, form input {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <h1>Index</h1>
+  <div class="container">
+    <form action="/result" method="post">
+      
+      <label>
+        Your Name: <input type="text" name="yourname">
+      </label>
+      <br>
+      <label>
+        Dojo Location: 
+        <select name="dojolocation">
+          <option value="Mountain View">Mountain View</option>
+          <option value="sanjose">San Jose</option>
+        </select>
+      </label>
+      <br>
+      <label>
+        Favorite Language: 
+        <select name="favoritelanguage">
+          <option value="javascript">Javascript</option>
+          <option value="python">Python</option>
+        </select>
+      </label>
+      <br>
+      <label for="comment">Comment (optional)</label>
+      <br>
+      <textarea name="comment" id="" cols="30" rows="10"></textarea>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</body>
+</html>
