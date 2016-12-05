@@ -42,5 +42,5 @@ app.post('/result', function(req, res) {
 });
 // tell the express app to listen on port 8000
 app.listen(8000, function() {
- console.log("listening on port 8000");
+ console.log("listening to survey form on port 8000");
 });
